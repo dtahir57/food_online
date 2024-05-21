@@ -39,3 +39,7 @@ def registerUser(request):
             'form': form
         }
         return render(request, 'auth/register.html', context)
+    
+
+def loginUser(request):
+    pass
